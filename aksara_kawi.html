@@ -74,7 +74,7 @@ body.nou .c .u{display:none}
 .cat{display:grid;gap:10px}
 .vs{background:var(--panel);border:1px solid var(--line);border-radius:3px;padding:12px 14px;text-align:left;font:inherit;color:var(--ink);width:100%}
 .vs span{display:block}
-.vs .kk{font-size:1.5rem;line-height:1.8;color:var(--acc2)}
+.vs .kk{font-size:1.5rem;line-height:1.8;color:var(--acc2);white-space:pre-line}
 .vs .ll{font-style:italic;margin-top:2px}
 .vs .tr{color:var(--mute);font-size:.92rem;margin-top:4px}
 .vs .sr{color:var(--acc);font:.68rem var(--mono);letter-spacing:.08em;margin-top:6px}
@@ -327,8 +327,7 @@ function conv(s){s=s.replace(/[əǝ]/g,'ĕ').replace(/[A-ZÀ-Þ]/g,m=>'TDNSREÖM
  if(p)out+=KIL;return opt('o-ns')?out.replace(/ +/g,''):out}
 
 const CAT=[
-['Sumanasāntaka 33.4d','saṅ hyaṅ candra baṅun bahitra ḍatəṅ iṅ kuləm amawa śaśā mare jawa','Sang bulan bagai bahitra, kapal samudra yang datang di malam hari, membawa kelinci ke tanah Jawa.'],
-['Sumanasāntaka 33.4a','mambö sāgara ramya niṅ laṅit awarṇa tali hurut-urutnya tan pəgat','Langit yang indah tampak seperti samudra; untaian awan bagai tali pancing yang tak terputus.'],
+['Sumanasāntaka 33.4','mambö sāgara ramya niṅ laṅit awarṇa tali hurut-urutnya tan pəgat\nkalaṅkyaṅ baṅun jukuṅ niṅ amāyān layap i lāri nikā maḍam ḍarat\nkuntul mōr kādi tuṇḍān i banawa kāri tan ilu kājahāt lana ālayar\nsaṅ hyaṅ candra baṅun bahitra ḍatəṅ iṅ kuləm amawa śaśā mare jawa','Langit yang indah bagai samudra: untaian awan bagai tali pancing yang tak putus. Kalaṅkyaṅ bagai sampan nelayan pemakai jaring payan, menghilang dari pandangan saat arahnya menuju daratan. Bangau terbang bagai tunda kapal banawa yang aman dari karam, terus berlayar. Sang bulan suci bagai kapal bahitra lintas samudra, datang di malam hari, membawa kelinci sebagai muatan ke Jawa.'],
 ['Sumanasāntaka 33.7d','lwir hambal sphaṭikāṅ alun turunan iṅ kawi pəjah atuhāṅhañut laṅö','Ombak bagai tangga kristal, jalan turun bagi seorang kawi yang wafat di hari tua, hanyut dalam samudra keindahan.'],
 ['Sumanasāntaka 51.2','layar niṅ baṇyāgānutakən aṅin aṅdoh kadi limut','Layar kapal dagang, mengikuti angin, menjauh bagai kabut.'],
 ['Bhomāntaka 4.1a','sawaṅ kanyā lwir niṅ pasisir i halilintaṅ nrəpasuta','Pantai itu tampak seperti seorang gadis ketika sang putra raja lewat.'],
@@ -356,7 +355,13 @@ const CAT=[
 ['Arjunawiwāha 1.14 · Śardūlawikrīdhita','ābhāniṅ patapan gihā watu putih lwirnyaṅ panuṅsuṅ guyu\ntut himbaṅ magiraṅ-giraṅ winulatan ramyanya de saṅ ḍataṅ\ngəṅniṅ prihnya kunaṅ nimittaniṅ unaṅ moghārarəm ṅ wwaṅ mulat\naṅde kuṅ makuwwuṅ-kuwuṅ laṅit ika truh-truh sinənwan rawi','Wujud pertapaannya gua batu putih, seolah menyongsong dengan tawa. Sisi-sisinya girang bergembira, diamati keindahannya oleh yang datang. Besarnya usaha itulah alasannya menjadi sedih, segera tunduk orang yang memandang. Membangkitkan gairah asmara, berpelangi langitnya, selagi hujan rintik-rintik disinari matahari.'],
 ['Arjunawiwāha 10.1 · Mṛdukomala','oṃ sambahniṅ anātha tiṅhalana de Trilokaśaraṇa\nwāhyādhyātmika sambahi ṅhulun i jöṅta tan hana waneh\nsaṅ lwir agni sakəṅ tahən kadi miñak sakəṅ dadhi kita\nsaṅ sākṣāt mətu yan hana wwaṅ amutər tutur pinahayu','Om, sembah hamba yang tak memiliki raja, mohon dipandang Sang Pelindung Triloka. Lahir batin sembah hamba di hadapan kaki-Mu tiada lain. Engkaulah bagaikan api dari kayu, bagaikan mentega dari susu. Yang bagaikan timbul jika ada orang mengaduk kesadaran dengan tutur kebajikan.'],
 ['Arjunawiwāha 11.2a-b · Śardūlawikrīdhita','katĕmunta marêka si tan katĕmu\nkahiḍĕpta marêka si tan kahiḍĕp','Ditemukanlah oleh-Mu apa yang tak ditemukan, terpikirlah oleh-Mu apa yang tak terpikirkan.'],
-['Arjunawiwāha 36.2 · Wijayagati','sampun kekətaniṅ kathārjunawiwāha ta paṅaranika\nsākṣāt tambayira mpu Kanwa tumatāmətu-mətu kakawin\nbhrāntāpan təhər aṅharəp samarakārya maṅiriṅ i haji\nŚrī Airlanggha namāstu saṅ panikəlanya tanah anumata','Telah terangkai menjadi sebuah cerita, Arjunawiwāhalah namanya. Tampak nyata pertama kalinya Mpu Kanwa menyusun, menghasilkan kakawin. Kacau, sebab sedang menghadapi karya perang, mengiringkan Sang Raja. Sembah ke hadirat Sri Airlangga. Dia yang dipuja sampai patah anak batu tulis, memberi restu.']
+['Arjunawiwāha 36.2 · Wijayagati','sampun kekətaniṅ kathārjunawiwāha ta paṅaranika\nsākṣāt tambayira mpu Kanwa tumatāmətu-mətu kakawin\nbhrāntāpan təhər aṅharəp samarakārya maṅiriṅ i haji\nŚrī Airlanggha namāstu saṅ panikəlanya tanah anumata','Telah terangkai menjadi sebuah cerita, Arjunawiwāhalah namanya. Tampak nyata pertama kalinya Mpu Kanwa menyusun, menghasilkan kakawin. Kacau, sebab sedang menghadapi karya perang, mengiringkan Sang Raja. Sembah ke hadirat Sri Airlangga. Dia yang dipuja sampai patah anak batu tulis, memberi restu.'],
+['Kṛṣṇāyana 7.1','hāh-ah sān hilāṅ iṅ paṇīpyan i sadānkw atānhi de niṅ gārāh\nndah siṅsiṅ kahanan ta de nya wulikān yan riṅ sākar-pādapa\nyapwan mukṣa kiteṅ rāmwaṅ pātwaṅ adoh kalaṅkyaṅ asyaṅ-syaṅā\nyan mukṣeṅ lāpihan taṅkna mituhwa ṅwaṅ tuduh niṅ tanah','Ah! Kau yang lenyap dari mimpiku saat gelegar guntur membangunkanku: kini akan kucari jalan ke setiap tempat yang mungkin kau tuju — entah di kuncup pepohonan muda, entah lenyap dalam awan hujan gelap nan jauh tempat burung-burung kalaṅkyaṅ saling berseru. Namun bila kau lenyap ke dalam naskah lontar, akan kucari kau di sana, mengikuti petunjuk penamu.'],
+['Sumanasāntaka 37.7','kalaṅkyaṅa layap wiśāta baṅun ahyun atapa riṅ aṅin huwus lapas','Seekor kalaṅkyaṅ, sama sekali tanpa rintangan, memudar di kejauhan dan, seakan menjalani tapa di angin, menemukan pembebasan.'],
+['Rāmāyaṇa 24.118','kalaṅkyaṅ ko lanākūn sabhaya mabayaṅan ko taḥ mapa kunāṅ','Wahai kalaṅkyaṅ, engkau selalu dirundung rindu asmara; engkau terbang berkeliling dengan gelisah — ada apa denganmu?'],
+['Sumanasāntaka 29.8','jalada kadi pataṅ yaṅ tembe niṅ kapat alaṅö jawuh amokasakən ram riṅ kāṭwan hanar asami wahu mari pananis niṅ kalaṅkyaṅ sukha sumayab asiga kadi tinamban wahu inantukan agiraṅ','Awan pembawa hujan, gelap bagai malam, mempesona pada awal bulan Kapat. Hujan yang turun meninggalkan kabut menyelubungi hutan-hutan yang baru berbunga. Burung kalaṅkyaṅ berhenti berseru, melayang girang di langit. Bersemangat, para kekasih yang ditinggal, kini berharap akan pertemuan yang membahagiakan.'],
+['Sumanasāntaka 41.5','kalaṅkyaṅ mwaṅ rarob warna nira kadi liran kamukaṅ sanhub awrā','Mereka bagaikan kalaṅkyaṅ dan awan gerimis yang menyelimutinya, bagaikan pohon enau yang berselubung kabut yang membentang.'],
+['Sumanasāntaka 177.5','kalaṅkyaṅ jarumankw riṅ masa kapat ḍatāṅa ri kita kāla niṅ rāmān her-herān ri tokanta kewala kitātīsāya kadi hīnundān iṅ patār','Pada bulan Kapat, burung kalaṅkyaṅ adalah utusanku yang terpercaya, kuperintahkan datang kepadamu pada masa awan hujan, untuk memberitahumu bahwa aku menantikan kedatanganmu, seakan diundang oleh gemuruh guntur.']
 ];
 
 const fix=s=>{s=s.replace(/[əǝ]/g,'ĕ').replace(/-/g,'');return opt('o-asc')?s.replace(/ny/g,"n'y").replace(/ng/g,"n'g").replace(/sh/g,"s'h"):s};
@@ -448,7 +453,7 @@ document.getElementById('pst').onclick=async()=>{try{put(await navigator.clipboa
 applyStyle();
 ['o-s1','o-s2'].forEach(i=>document.getElementById(i).addEventListener('change',()=>{const f=[opt('o-s1')&&'"ss01"',opt('o-s2')&&'"ss02"'].filter(Boolean);document.documentElement.style.setProperty('--ff',f.length?f.join(','):'normal')}));
 document.getElementById('o-u').onchange=e=>document.body.classList.toggle('nou',!e.target.checked);
-const AUTH={'Sumanasāntaka':'Mpu Monaguṇa','Bhomāntaka':'penyair anonim','Ghaṭotkacāśraya':'Mpu Panuluh','Wṛttasañcaya':'Mpu Tanakung','Rāmāyaṇa':'Yogīśvara (penggubah tradisional)', 'Arjunawiwāha':'Mpu Kanwa'};
+const AUTH={'Sumanasāntaka':'Mpu Monaguṇa','Bhomāntaka':'penyair anonim','Ghaṭotkacāśraya':'Mpu Panuluh','Wṛttasañcaya':'Mpu Tanakung','Rāmāyaṇa':'Yogīśvara (penggubah tradisional)', 'Arjunawiwāha':'Mpu Kanwa','Kṛṣṇāyana':'Mpu Triguna'};
 const cat=document.getElementById('cat'),kks=[];
 CAT.forEach(([src,l,tr])=>{const b=document.createElement('button');b.type='button';b.className='vs';b.dataset.k=src.split(/ \d/)[0];
  b.innerHTML='<span class="kk k"></span><span class="ll"></span><span class="tr"></span><span class="sr"></span>';
