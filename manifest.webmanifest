@@ -1,0 +1,27 @@
+{
+  "id": "./",
+  "name": "Aksara Kawi",
+  "short_name": "Kawi",
+  "description": "Latin (IAST) ⇄ Kawi Unicode transliteration console with an on-screen aksara keypad. Works offline.",
+  "start_url": "./?source=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#04070e",
+  "theme_color": "#04070e",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["education", "utilities", "productivity"],
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ],
+  "screenshots": [
+    { "src": "screenshot-wide.png", "sizes": "1280x720", "type": "image/png", "form_factor": "wide", "label": "Transliteration console" },
+    { "src": "screenshot-narrow.png", "sizes": "540x960", "type": "image/png", "form_factor": "narrow", "label": "Console on a phone" }
+  ]
+}

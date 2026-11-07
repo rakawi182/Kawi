@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="166 205 692 614" width="692" height="614">
+<title>Kawi</title>
+<defs>
+<style>@font-face{font-family:"Noto Sans Kawi";src:url(data:font/woff;base64,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) format("woff")}</style>
+<text id="t" font-family="Noto Sans Kawi" font-size="400" text-anchor="middle">𑼒𑼮𑼶</text>
+<radialGradient id="bg" cx="50%" cy="38%" r="75%"><stop offset="0" stop-color="#14283a"/><stop offset=".55" stop-color="#0a1522"/><stop offset="1" stop-color="#04070e"/></radialGradient>
+<linearGradient id="rim" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f6dd93"/><stop offset=".5" stop-color="#a47a25"/><stop offset="1" stop-color="#f1cf7a"/></linearGradient>
+<linearGradient id="gold" gradientUnits="userSpaceOnUse" x1="0" y1="-220" x2="0" y2="8"><stop offset="0" stop-color="#fff0b0"/><stop offset=".38" stop-color="#f3cc6a"/><stop offset=".72" stop-color="#e0a93c"/><stop offset="1" stop-color="#f0c35a"/></linearGradient>
+<filter id="blur" x="-20%" y="-20%" width="140%" height="150%"><feGaussianBlur stdDeviation="14.0"/></filter>
+</defs>
+
+
+<use href="#t" x="521.5" y="745.0" fill="#000" opacity=".55" filter="url(#blur)"/>
+<use href="#t" x="514.00" y="718.00" fill="#4f370e"/>
+<use href="#t" x="513.25" y="717.25" fill="#51390f"/>
+<use href="#t" x="512.50" y="716.50" fill="#543a0f"/>
+<use href="#t" x="511.75" y="715.75" fill="#563c10"/>
+<use href="#t" x="511.00" y="715.00" fill="#583e10"/>
+<use href="#t" x="510.25" y="714.25" fill="#5a4011"/>
+<use href="#t" x="509.50" y="713.50" fill="#5c4111"/>
+<use href="#t" x="508.75" y="712.75" fill="#5f4312"/>
+<use href="#t" x="508.00" y="712.00" fill="#614512"/>
+<use href="#t" x="507.25" y="711.25" fill="#634713"/>
+<use href="#t" x="506.50" y="710.50" fill="#664814"/>
+<use href="#t" x="505.75" y="709.75" fill="#684a14"/>
+<use href="#t" x="505.00" y="709.00" fill="#6a4c15"/>
+<use href="#t" x="504.25" y="708.25" fill="#6c4d15"/>
+<use href="#t" x="503.50" y="707.50" fill="#6e4f16"/>
+<use href="#t" x="502.75" y="706.75" fill="#715116"/>
+<use href="#t" x="502.00" y="706.00" fill="#735317"/>
+<use href="#t" x="501.25" y="705.25" fill="#755417"/>
+<use href="#t" x="500.50" y="704.50" fill="#785618"/>
+<use href="#t" x="499.75" y="703.75" fill="#7a5818"/>
+<use href="#t" x="499.00" y="703.00" fill="#7c5a19"/>
+<use href="#t" x="498.25" y="702.25" fill="#7e5b1a"/>
+<use href="#t" x="497.50" y="701.50" fill="#805d1a"/>
+<use href="#t" x="496.75" y="700.75" fill="#835f1b"/>
+<use href="#t" x="496.00" y="700.00" fill="#85601b"/>
+<use href="#t" x="495.25" y="699.25" fill="#87621c"/>
+<use href="#t" x="494.50" y="698.50" fill="#8a641c"/>
+<use href="#t" x="493.75" y="697.75" fill="#8c661d"/>
+<use href="#t" x="493.00" y="697.00" fill="#8e671d"/>
+<use href="#t" x="492.25" y="696.25" fill="#90691e"/>
+<use href="#t" x="491.50" y="695.50" fill="#926b1e"/>
+<use href="#t" x="490.75" y="694.75" fill="#956c1f"/>
+<use href="#t" x="490.00" y="694.00" fill="#976e20"/>
+<use href="#t" x="489.25" y="693.25" fill="#997020"/>
+<use href="#t" x="488.50" y="692.50" fill="#9c7221"/>
+<use href="#t" x="487.75" y="691.75" fill="#9e7321"/>
+<use href="#t" x="487.00" y="691.00" fill="#a07522"/>
+<use href="#t" x="486.25" y="690.25" fill="#a27722"/>
+<use href="#t" x="485.50" y="689.50" fill="#a47923"/>
+<use href="#t" x="484.75" y="688.75" fill="#a77a23"/>
+<use href="#t" x="478.40" y="682.40" fill="#fff6d2"/>
+<use href="#t" x="484.00" y="688.00" fill="url(#gold)"/>
+</svg>
